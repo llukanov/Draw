@@ -174,12 +174,14 @@ namespace Draw
 
 		public void DeleteShape(PointF p)
 		{
-            foreach (Shape shape in ShapeList)
-            {
-                if (shape.Contains(p))
+			int count = ShapeList.Count;
+			while (ShapeList.Count > 0)
+			{
+                if (ShapeList[count - 1].Contains(p))
                 {
-                    ShapeList.Remove(shape);
+                    ShapeList.Remove(ShapeList[count - 1]);
                 }
+				count--;
             }
         }
 
