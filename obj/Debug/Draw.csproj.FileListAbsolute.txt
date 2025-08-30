@@ -8,3 +8,13 @@ C:\VisualStudio2008-WinForms\obj\Debug\Draw.csproj.GenerateResource.cache
 C:\VisualStudio2008-WinForms\obj\Debug\Draw.csproj.CoreCompileInputs.cache
 C:\VisualStudio2008-WinForms\obj\Debug\Draw.exe
 C:\VisualStudio2008-WinForms\obj\Debug\Draw.pdb
+C:\Users\lachl\source\repos\Draw\bin\Debug\Draw.exe.config
+C:\Users\lachl\source\repos\Draw\bin\Debug\Draw.exe
+C:\Users\lachl\source\repos\Draw\bin\Debug\Draw.pdb
+C:\Users\lachl\source\repos\Draw\obj\Debug\Draw.csproj.AssemblyReference.cache
+C:\Users\lachl\source\repos\Draw\obj\Debug\Draw.DoubleBufferedPanel.resources
+C:\Users\lachl\source\repos\Draw\obj\Debug\Draw.MainForm.resources
+C:\Users\lachl\source\repos\Draw\obj\Debug\Draw.csproj.GenerateResource.cache
+C:\Users\lachl\source\repos\Draw\obj\Debug\Draw.csproj.CoreCompileInputs.cache
+C:\Users\lachl\source\repos\Draw\obj\Debug\Draw.exe
+C:\Users\lachl\source\repos\Draw\obj\Debug\Draw.pdb

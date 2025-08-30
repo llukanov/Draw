@@ -50,7 +50,8 @@
               "RelativeToolTip": "src\\GUI\\MainForm.Designer.cs",
               "ViewState": "AgIAABEBAAAAAAAAAADwvxwBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T12:47:57.863Z"
+              "WhenOpened": "2025-08-30T12:47:57.863Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -120,7 +121,7 @@
               "RelativeDocumentMoniker": "src\\GUI\\MainForm.cs",
               "ToolTip": "C:\\Users\\lachl\\source\\repos\\Draw\\src\\GUI\\MainForm.cs",
               "RelativeToolTip": "src\\GUI\\MainForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIQAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwBsAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-29T13:54:17.443Z",
               "EditorCaption": ""
