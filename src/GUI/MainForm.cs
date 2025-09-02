@@ -111,14 +111,14 @@ namespace Draw
                 case "Последно действие: Намаляване":
                     dialogProcessor.DoShapeSmaller(e.Location);
 
-                    statusBar.Items[0].Text = "Последно действие: Намалена фигура";
+                    // statusBar.Items[0].Text = "Последно действие: Намалена фигура";
 
                     viewPort.Invalidate();
                     break;
                 case "Последно действие: Уголемяване":
                     dialogProcessor.DoShapeBigger(e.Location);
 
-                    statusBar.Items[0].Text = "Последно действие: Уголемена фигура";
+                    // statusBar.Items[0].Text = "Последно действие: Уголемена фигура";
 
                     viewPort.Invalidate();
                     break;
@@ -136,7 +136,16 @@ namespace Draw
 
                     viewPort.Invalidate();
                     break;
+                case "Последно действие: Групиране на фигури":
+                    dialogProcessor.GroupShapes(e.Location);
 
+                    viewPort.Invalidate();
+                    break;
+                case "Последно действие: Разгрупиране на фигури":
+                    dialogProcessor.UnGroupShape(e.Location);
+
+                    viewPort.Invalidate();
+                    break;
 
             }
 		}
@@ -233,6 +242,35 @@ namespace Draw
         private void DeleteShapeButton_Click(object sender, EventArgs e)
         {
             statusBar.Items[0].Text = "Последно действие: Изтриване на фигура";
+        }
+
+        private void saveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void speedMenu_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void DrawTriangleButton_Click(object sender, EventArgs e)
+        {
+            dialogProcessor.AddTriangle();
+
+            statusBar.Items[0].Text = "Последно действие: Рисуване на триъгълник";
+
+            viewPort.Invalidate();
+        }
+
+        private void GroupShapesButton_Click(object sender, EventArgs e)
+        {
+            statusBar.Items[0].Text = "Последно действие: Групиране на фигури";
+        }
+
+        private void UnGroupShapeButton_Click(object sender, EventArgs e)
+        {
+            statusBar.Items[0].Text = "Последно действие: Разгрупиране на фигури";
         }
     }
 }

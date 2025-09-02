@@ -9,16 +9,18 @@ namespace Draw
 	/// </summary>
 	public class DialogProcessor : DisplayProcessor
 	{
-		#region Constructor
-		
-		public DialogProcessor()
+        Random rnd = new Random();
+
+        #region Constructor
+
+        public DialogProcessor()
 		{
 		}
-		
+
 		#endregion
-		
+
 		#region Properties
-		
+
 		/// <summary>
 		/// Избран елемент.
 		/// </summary>
@@ -27,7 +29,7 @@ namespace Draw
 			get { return selection; }
 			set { selection = value; }
 		}
-		
+
 		/// <summary>
 		/// Дали в момента диалога е в състояние на "влачене" на избрания елемент.
 		/// </summary>
@@ -36,7 +38,7 @@ namespace Draw
 			get { return isDragging; }
 			set { isDragging = value; }
 		}
-		
+
 		/// <summary>
 		/// Последна позиция на мишката при "влачене".
 		/// Използва се за определяне на вектора на транслация.
@@ -46,50 +48,88 @@ namespace Draw
 			get { return lastLocation; }
 			set { lastLocation = value; }
 		}
-		
+
 		#endregion
-		
+
 		/// <summary>
 		/// Добавя примитив - правоъгълник на произволно място върху клиентската област.
 		/// </summary>
 		public void AddRandomRectangle()
 		{
-			Random rnd = new Random();
-			int x = rnd.Next(100,1000);
-			int y = rnd.Next(100,600);
-			
-			RectangleShape rect = new RectangleShape(new Rectangle(x,y,100,200));
+			int x = rnd.Next(100, 1000);
+			int y = rnd.Next(100, 600);
+
+			RectangleShape rect = new RectangleShape(new Rectangle(x, y, 200, 100));
 			rect.FillColor = Color.White;
 
 			ShapeList.Add(rect);
 		}
 
-        public void AddSquare()
-        {
+		public void AddSquare()
+		{
+            int x = rnd.Next(100, 1000);
+            int y = rnd.Next(100, 600);
 
-            RectangleShape square = new RectangleShape(new Rectangle(105, 155, 150, 150));
-            square.FillColor = Color.White;
-			
-            ShapeList.Add(square);
-        }
+            RectangleShape square = new RectangleShape(new Rectangle(x, y, 150, 150));
+			square.FillColor = Color.White;
 
-        public void AddEllipse()
-        {
+			ShapeList.Add(square);
+		}
 
-			EllipseShape ellipse = new EllipseShape(new Rectangle(105, 155, 350, 150));
+		public void AddEllipse()
+		{
+            int x = rnd.Next(100, 1000);
+            int y = rnd.Next(100, 600);
+
+            EllipseShape ellipse = new EllipseShape(new Rectangle(x, y, 350, 150));
 			ellipse.FillColor = Color.White;
 
-            ShapeList.Add(ellipse);
+			ShapeList.Add(ellipse);
+		}
+
+		public void AddCicle()
+		{
+            int x = rnd.Next(100, 1000);
+            int y = rnd.Next(100, 600);
+
+            EllipseShape cicle = new EllipseShape(new Rectangle(x, y, 150, 150));
+			cicle.FillColor = Color.White;
+
+			ShapeList.Add(cicle);
+		}
+
+		public void AddTriangle()
+		{
+            int x = rnd.Next(100, 1000);
+            int y = rnd.Next(100, 600);
+
+            TriangleShape triangle = new TriangleShape(new RectangleF(x, y, 200, 200));
+            triangle.FillColor = Color.White;
+
+            ShapeList.Add(triangle);
         }
 
-        public void AddCicle()
-        {
-
-            EllipseShape cicle = new EllipseShape(new Rectangle(105, 155, 150, 150));
-            cicle.FillColor = Color.White;
-
-            ShapeList.Add(cicle);	
+		public void GroupShapes(PointF p)
+		{
+            foreach (Shape shape in ShapeList)
+            {
+                if (shape.Contains(p))
+                {
+                    shape.Group = true;
+                }
+            }
         }
+
+		public void UnGroupShape(PointF p)
+		{
+			foreach(Shape shape in ShapeList)
+			{
+				if(shape.Contains(p))
+				{
+                    shape.Group = false;
+                }
+			}
+		}
 
 		public	void ColorShapeBlue(PointF p)
 		{
@@ -175,9 +215,9 @@ namespace Draw
 		public void DeleteShape(PointF p)
 		{
 			int count = ShapeList.Count;
-			while (ShapeList.Count > 0)
+			while (count > 0)
 			{
-                if (ShapeList[count - 1].Contains(p))
+                if (ShapeList[count-1].Contains(p))
                 {
                     ShapeList.Remove(ShapeList[count - 1]);
                 }
@@ -209,10 +249,26 @@ namespace Draw
 		/// <param name="p">Вектор на транслация.</param>
 		public void TranslateTo(PointF p)
 		{
-			if (selection != null) {
-				selection.Location = new PointF(selection.Location.X + p.X - lastLocation.X, selection.Location.Y + p.Y - lastLocation.Y);
-				lastLocation = p;
+
+
+			if (selection.Group)
+			{
+				foreach (Shape shape in ShapeList)
+				{
+					if (shape.Group)
+					{
+						shape.Location = new PointF(shape.Location.X + p.X - lastLocation.X, shape.Location.Y + p.Y - lastLocation.Y);
+					}
+				}
 			}
+			else
+			{
+				if (selection != null)
+				{
+					selection.Location = new PointF(selection.Location.X + p.X - lastLocation.X, selection.Location.Y + p.Y - lastLocation.Y);
+				}
+			}
+                lastLocation = p;
 		}
 	}
 }

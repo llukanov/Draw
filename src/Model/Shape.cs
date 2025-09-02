@@ -73,7 +73,15 @@ namespace Draw
 			get { return fillColor; }
 			set { fillColor = value; }
 		}
-		
+
+		private bool group = false; 
+
+		public virtual bool Group
+		{
+			get { return group; }
+			set {  group = value; }
+		}
+
 		#endregion
 		
 

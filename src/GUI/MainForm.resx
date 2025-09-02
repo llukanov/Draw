@@ -130,7 +130,7 @@
   <data name="drawRectangleSpeedButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAABOSURBVDhP3csxCgAwDALA/P/TKaIdpIPpmgMntXbpzzx6
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABOSURBVDhP3csxCgAwDALA/P/TKaIdpIPpmgMntXbpzzx6
         CltenOoMW16c6gxbXpzqDFtenOoMW16c6gxbXpzqDFtenOoMW17cLabZoeoAV7RmqOX2m2gAAAAASUVO
         RK5CYII=
 </value>
@@ -138,10 +138,13 @@
   <data name="pickUpSpeedButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAABISURBVDhPtcwxDgAgCENRjt6bY4gSY1i0lZ8wMPRZQ3AA
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABISURBVDhPtcwxDgAgCENRjt6bY4gSY1i0lZ8wMPRZQ3AA
         vh6mGEvIBARkAyRyAgRSgbgHpI7zLhF6mH0BMhrJZCCSERlozWwAuMRswQX9awAAAAAASUVORK5CYII=
 </value>
   </data>
+  <metadata name="colorDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>353, 17</value>
+  </metadata>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAMAICAQAAEABADoAgAANgAAABAQEAABAAQAKAEAAB4DAAAwMAAAAQAgAKglAABGBAAAKAAAACAA
