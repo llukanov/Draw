@@ -18,3 +18,4 @@ C:\Users\lachl\source\repos\Draw\obj\Debug\Draw.csproj.GenerateResource.cache
 C:\Users\lachl\source\repos\Draw\obj\Debug\Draw.csproj.CoreCompileInputs.cache
 C:\Users\lachl\source\repos\Draw\obj\Debug\Draw.exe
 C:\Users\lachl\source\repos\Draw\obj\Debug\Draw.pdb
+C:\Users\lachl\source\repos\Draw\obj\Debug\Draw.Properties.Resources.resources

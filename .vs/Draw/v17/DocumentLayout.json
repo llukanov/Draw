@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\lachl\\source\\repos\\Draw\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B7A9A968-DE7B-4537-9423-9D8ED1A72BF9}|Draw.csproj|C:\\Users\\lachl\\source\\repos\\Draw\\src\\gui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B7A9A968-DE7B-4537-9423-9D8ED1A72BF9}|Draw.csproj|solutionrelative:src\\gui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B7A9A968-DE7B-4537-9423-9D8ED1A72BF9}|Draw.csproj|C:\\Users\\lachl\\source\\repos\\Draw\\src\\gui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7A9A968-DE7B-4537-9423-9D8ED1A72BF9}|Draw.csproj|solutionrelative:src\\gui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7A9A968-DE7B-4537-9423-9D8ED1A72BF9}|Draw.csproj|c:\\users\\lachl\\source\\repos\\draw\\src\\gui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B7A9A968-DE7B-4537-9423-9D8ED1A72BF9}|Draw.csproj|solutionrelative:src\\gui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7A9A968-DE7B-4537-9423-9D8ED1A72BF9}|Draw.csproj|C:\\Users\\lachl\\source\\repos\\Draw\\src\\processors\\dialogprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7A9A968-DE7B-4537-9423-9D8ED1A72BF9}|Draw.csproj|solutionrelative:src\\processors\\dialogprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7A9A968-DE7B-4537-9423-9D8ED1A72BF9}|Draw.csproj|C:\\Users\\lachl\\source\\repos\\Draw\\src\\model\\ellipseshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B7A9A968-DE7B-4537-9423-9D8ED1A72BF9}|Draw.csproj|c:\\users\\lachl\\source\\repos\\draw\\src\\model\\ellipseshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7A9A968-DE7B-4537-9423-9D8ED1A72BF9}|Draw.csproj|solutionrelative:src\\model\\ellipseshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7A9A968-DE7B-4537-9423-9D8ED1A72BF9}|Draw.csproj|C:\\Users\\lachl\\source\\repos\\Draw\\src\\model\\rectangleshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7A9A968-DE7B-4537-9423-9D8ED1A72BF9}|Draw.csproj|solutionrelative:src\\model\\rectangleshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7A9A968-DE7B-4537-9423-9D8ED1A72BF9}|Draw.csproj|C:\\Users\\lachl\\source\\repos\\Draw\\src\\model\\triangleshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7A9A968-DE7B-4537-9423-9D8ED1A72BF9}|Draw.csproj|solutionrelative:src\\model\\triangleshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B7A9A968-DE7B-4537-9423-9D8ED1A72BF9}|Draw.csproj|C:\\Users\\lachl\\source\\repos\\Draw\\src\\model\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7A9A968-DE7B-4537-9423-9D8ED1A72BF9}|Draw.csproj|solutionrelative:src\\model\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7A9A968-DE7B-4537-9423-9D8ED1A72BF9}|Draw.csproj|C:\\Users\\lachl\\source\\repos\\Draw\\src\\model\\triangleshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7A9A968-DE7B-4537-9423-9D8ED1A72BF9}|Draw.csproj|solutionrelative:src\\model\\triangleshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7A9A968-DE7B-4537-9423-9D8ED1A72BF9}|Draw.csproj|C:\\Users\\lachl\\source\\repos\\Draw\\src\\processors\\dialogprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7A9A968-DE7B-4537-9423-9D8ED1A72BF9}|Draw.csproj|solutionrelative:src\\processors\\dialogprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7A9A968-DE7B-4537-9423-9D8ED1A72BF9}|Draw.csproj|C:\\Users\\lachl\\source\\repos\\Draw\\src\\model\\rectangleshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7A9A968-DE7B-4537-9423-9D8ED1A72BF9}|Draw.csproj|solutionrelative:src\\model\\rectangleshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B7A9A968-DE7B-4537-9423-9D8ED1A72BF9}|Draw.csproj|C:\\Users\\lachl\\source\\repos\\Draw\\src\\gui\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,24 +42,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Shape.cs",
               "DocumentMoniker": "C:\\Users\\lachl\\source\\repos\\Draw\\src\\Model\\Shape.cs",
               "RelativeDocumentMoniker": "src\\Model\\Shape.cs",
               "ToolTip": "C:\\Users\\lachl\\source\\repos\\Draw\\src\\Model\\Shape.cs",
               "RelativeToolTip": "src\\Model\\Shape.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAwwE4AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAAE4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T14:41:39.934Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-29T14:41:39.934Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\lachl\\source\\repos\\Draw\\src\\GUI\\MainForm.cs",
               "RelativeDocumentMoniker": "src\\GUI\\MainForm.cs",
@@ -71,68 +70,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "RectangleShape.cs",
               "DocumentMoniker": "C:\\Users\\lachl\\source\\repos\\Draw\\src\\Model\\RectangleShape.cs",
               "RelativeDocumentMoniker": "src\\Model\\RectangleShape.cs",
               "ToolTip": "C:\\Users\\lachl\\source\\repos\\Draw\\src\\Model\\RectangleShape.cs",
               "RelativeToolTip": "src\\Model\\RectangleShape.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwDEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T19:12:05.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-29T19:12:05.496Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "DialogProcessor.cs",
               "DocumentMoniker": "C:\\Users\\lachl\\source\\repos\\Draw\\src\\Processors\\DialogProcessor.cs",
               "RelativeDocumentMoniker": "src\\Processors\\DialogProcessor.cs",
               "ToolTip": "C:\\Users\\lachl\\source\\repos\\Draw\\src\\Processors\\DialogProcessor.cs",
               "RelativeToolTip": "src\\Processors\\DialogProcessor.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAowIAAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAkwMAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T13:54:17.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-29T13:54:17.896Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "EllipseShape.cs",
               "DocumentMoniker": "C:\\Users\\lachl\\source\\repos\\Draw\\src\\Model\\EllipseShape.cs",
               "RelativeDocumentMoniker": "src\\Model\\EllipseShape.cs",
               "ToolTip": "C:\\Users\\lachl\\source\\repos\\Draw\\src\\Model\\EllipseShape.cs",
               "RelativeToolTip": "src\\Model\\EllipseShape.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAA0wC8AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAUwC4AAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-29T13:54:17.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\lachl\\source\\repos\\Draw\\src\\GUI\\MainForm.cs",
               "RelativeDocumentMoniker": "src\\GUI\\MainForm.cs",
               "ToolTip": "C:\\Users\\lachl\\source\\repos\\Draw\\src\\GUI\\MainForm.cs",
               "RelativeToolTip": "src\\GUI\\MainForm.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAUwJAAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAcwLAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-29T13:54:17.443Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "TriangleShape.cs",
               "DocumentMoniker": "C:\\Users\\lachl\\source\\repos\\Draw\\src\\Model\\TriangleShape.cs",
               "RelativeDocumentMoniker": "src\\Model\\TriangleShape.cs",
               "ToolTip": "C:\\Users\\lachl\\source\\repos\\Draw\\src\\Model\\TriangleShape.cs",
               "RelativeToolTip": "src\\Model\\TriangleShape.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAYwDQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAmwDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T08:33:16.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-31T08:33:16.83Z"
             },
             {
               "$type": "Document",

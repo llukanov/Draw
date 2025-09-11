@@ -272,5 +272,15 @@ namespace Draw
         {
             statusBar.Items[0].Text = "Последно действие: Разгрупиране на фигури";
         }
+
+        private void doSmallerButton_Click(object sender, EventArgs e)
+        {
+            statusBar.Items[0].Text = "Последно действие: Намаляване";
+        }
+
+        private void doBiggerButton_Click(object sender, EventArgs e)
+        {
+            statusBar.Items[0].Text = "Последно действие: Уголемяване";
+        }
     }
 }
